@@ -1,0 +1,19 @@
+{% block subject %}Acme mobile notification{% endblock %}
+
+{% block body %}
+    <html>
+        <head>
+            <title>Awesome Email Marketing!</title>
+        </head>
+
+        <body>
+            <h1>Recommendations</h1>
+
+            <ul>
+                {% for k, v in data %}
+                    <li><strong>{{ k }}:</strong> {{ v }}</li>
+                {% endfor %}
+            </ul>
+        </body>
+    </html>
+{% endblock %}

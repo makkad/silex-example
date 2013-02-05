@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "silex/silex": "1.0.*",
+        "twig/twig": ">=1.8,<2.0-dev",
+        "swiftmailer/swiftmailer": ">=4.1.2,<4.2-dev",
+        "symfony/browser-kit": "2.1.*@dev"
+    },
+    "minimum-stability": "dev"
+}
